@@ -1,0 +1,48 @@
+body {
+    background-color: #add8e6; /* Fondo de la página web en celeste */
+    font-family: 'Segoe UI', sans-serif; /* Fuente del párrafo en Segoe UI */
+}
+
+nav {
+    background-color: #000; /* Fondo del navbar en negro */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: pink; /* Links del navbar en rosa */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: grey; /* Links se vuelven grises al pasar el mouse sobre ellos */
+}
+
+h1 {
+    color: darkgreen; /* Títulos principales en verde oscuro */
+    font-size: 40px; /* Tamaño de fuente de 40 píxeles */
+    font-family: Verdana, sans-serif; /* Fuente Verdana */
+}
+
+img {
+    width: 200px; /* Ancho de las imágenes a 200px */
+    height: 200px; /* Altura de las imágenes a 200px */
+    border: 2px solid black; /* Bordes negros de 2 píxeles */
+    border-radius: 50%; /* Imágenes redondas */
+}
+
+footer {
+    background-color: darkblue; /* Fondo del footer en azul oscuro */
+    color: white; /* Letra blanca en el footer */
+    text-align: center;
+    padding: 10px;
+}
